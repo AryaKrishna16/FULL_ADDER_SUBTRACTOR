@@ -22,7 +22,13 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin
 
 Carry = AB + ACin + BCin
 
+![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/0f30ba51-5ffb-4198-845f-18e054f675e7)
+
+**RTL schematic**
 <img width="1914" height="849" alt="Screenshot 2025-11-17 134424" src="https://github.com/user-attachments/assets/387792c1-6b7a-4220-9fb4-84344ccf5aea" />
+
+**Output timing waveform**
+<img width="1919" height="1018" alt="Screenshot 2025-11-17 135737" src="https://github.com/user-attachments/assets/db8848a7-634f-40fd-8e2c-95c5b955c9b0" />
 
 
 **Figure -1 FULL ADDER**
@@ -31,12 +37,12 @@ Carry = AB + ACin + BCin
 
 A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow.
 
-<img width="1919" height="1019" alt="Screenshot 2025-11-17 142449" src="https://github.com/user-attachments/assets/078d1c8f-e10b-410d-95aa-5756cd0d5c1b" />
-
 
 Diff = A ⊕ B ⊕ Bin 
 
 Borrow out = A'Bin + A'B + BBin
+
+![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/02b24f51-ab51-4304-9ad6-7b81ffc1ead5)
 
 **Truthtable**
 
@@ -50,8 +56,12 @@ Write the detailed procedure here
 */
 
 **RTL Schematic**
+<img width="1919" height="1019" alt="Screenshot 2025-11-17 142449" src="https://github.com/user-attachments/assets/078d1c8f-e10b-410d-95aa-5756cd0d5c1b" />
+
 
 **Output Timing Waveform**
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/46b37523-af4f-4d30-90bc-fca2a5186a5d" />
+
 
 **Result:**
 
